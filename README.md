@@ -5,8 +5,8 @@
         <td><img src="https://github.com/nyannbob/ARIMA-LSTM-price-prediction/blob/main/plots/LSTM_sensex.png" alt="Image 2" width="400"></td>
     </tr>
     <tr>
-        <td  style="text-align: center;">Loading screen for MARN OS</td>
-        <td  style="text-align: center;">Timer interrupt and Keyboard interrupt being handled</td>
+        <td  style="text-align: center;">Hybrid ARIMA-LSTM model predicting on Sensex</td>
+        <td  style="text-align: center;">LSTM model predicting on Sensex</td>
     </tr>
 </table>
 

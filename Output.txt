@@ -1,0 +1,158 @@
+
+Nifty Modelling
+
+
+
+1 Seasonal period
+
+
+Performing stepwise search to minimize aic
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=39540.800, Time=5.62 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=39582.172, Time=0.08 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=39583.928, Time=0.22 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=39583.943, Time=1.38 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=39582.219, Time=0.08 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=39583.619, Time=2.12 sec
+ ARIMA(2,1,1)(0,0,0)[0] intercept   : AIC=39585.058, Time=0.14 sec
+ ARIMA(3,1,2)(0,0,0)[0] intercept   : AIC=39588.830, Time=0.71 sec
+ ARIMA(2,1,3)(0,0,0)[0] intercept   : AIC=39521.235, Time=3.25 sec
+ ARIMA(1,1,3)(0,0,0)[0] intercept   : AIC=39586.943, Time=1.02 sec
+ ARIMA(3,1,3)(0,0,0)[0] intercept   : AIC=39522.337, Time=4.53 sec
+ ARIMA(2,1,4)(0,0,0)[0] intercept   : AIC=39518.450, Time=8.57 sec
+ ARIMA(1,1,4)(0,0,0)[0] intercept   : AIC=39572.146, Time=2.38 sec
+ ARIMA(3,1,4)(0,0,0)[0] intercept   : AIC=39523.330, Time=3.77 sec
+ ARIMA(2,1,5)(0,0,0)[0] intercept   : AIC=39518.721, Time=3.54 sec
+ ARIMA(1,1,5)(0,0,0)[0] intercept   : AIC=39562.955, Time=0.97 sec
+ ARIMA(3,1,5)(0,0,0)[0] intercept   : AIC=39518.392, Time=5.14 sec
+ ARIMA(4,1,5)(0,0,0)[0] intercept   : AIC=39520.225, Time=4.61 sec
+ ARIMA(4,1,4)(0,0,0)[0] intercept   : AIC=39539.458, Time=4.22 sec
+ ARIMA(3,1,5)(0,0,0)[0]             : AIC=39517.924, Time=1.35 sec
+ ARIMA(2,1,5)(0,0,0)[0]             : AIC=39517.761, Time=1.87 sec
+ ARIMA(1,1,5)(0,0,0)[0]             : AIC=39562.517, Time=0.54 sec
+ ARIMA(2,1,4)(0,0,0)[0]             : AIC=39517.547, Time=1.19 sec
+ ARIMA(1,1,4)(0,0,0)[0]             : AIC=39572.155, Time=0.32 sec
+ ARIMA(2,1,3)(0,0,0)[0]             : AIC=39519.473, Time=1.66 sec
+ ARIMA(3,1,4)(0,0,0)[0]             : AIC=39523.346, Time=2.11 sec
+ ARIMA(1,1,3)(0,0,0)[0]             : AIC=39586.833, Time=0.49 sec
+ ARIMA(3,1,3)(0,0,0)[0]             : AIC=39534.635, Time=1.63 sec
+
+Best model:  ARIMA(2,1,4)(0,0,0)[0]          
+Total fit time: 63.524 seconds
+
+4 Seasonal period
+
+
+Performing stepwise search to minimize aic
+ ARIMA(2,1,2)(1,0,1)[4] intercept   : AIC=inf, Time=3.75 sec
+ ARIMA(0,1,0)(0,0,0)[4] intercept   : AIC=39582.172, Time=0.03 sec
+ ARIMA(1,1,0)(1,0,0)[4] intercept   : AIC=39584.684, Time=0.19 sec
+ ARIMA(0,1,1)(0,0,1)[4] intercept   : AIC=39584.714, Time=0.20 sec
+ ARIMA(0,1,0)(0,0,0)[4]             : AIC=39582.219, Time=0.02 sec
+ ARIMA(0,1,0)(1,0,0)[4] intercept   : AIC=39583.000, Time=0.13 sec
+ ARIMA(0,1,0)(0,0,1)[4] intercept   : AIC=39583.011, Time=0.14 sec
+ ARIMA(0,1,0)(1,0,1)[4] intercept   : AIC=39585.419, Time=0.94 sec
+ ARIMA(1,1,0)(0,0,0)[4] intercept   : AIC=39583.928, Time=0.06 sec
+ ARIMA(0,1,1)(0,0,0)[4] intercept   : AIC=39583.943, Time=0.14 sec
+ ARIMA(1,1,1)(0,0,0)[4] intercept   : AIC=39583.050, Time=0.92 sec
+
+Best model:  ARIMA(0,1,0)(0,0,0)[4] intercept
+Total fit time: 6.542 seconds
+
+12 Seasonal period
+
+
+Performing stepwise search to minimize aic
+ ARIMA(2,1,2)(1,0,1)[12] intercept   : AIC=39543.267, Time=5.84 sec
+ ARIMA(0,1,0)(0,0,0)[12] intercept   : AIC=39582.172, Time=0.03 sec
+ ARIMA(1,1,0)(1,0,0)[12] intercept   : AIC=39576.245, Time=0.41 sec
+ ARIMA(0,1,1)(0,0,1)[12] intercept   : AIC=39575.882, Time=0.43 sec
+ ARIMA(0,1,0)(0,0,0)[12]             : AIC=39582.219, Time=0.02 sec
+ ARIMA(2,1,2)(0,0,1)[12] intercept   : AIC=39540.928, Time=5.00 sec
+ ARIMA(2,1,2)(0,0,0)[12] intercept   : AIC=39540.800, Time=2.30 sec
+ ARIMA(2,1,2)(1,0,0)[12] intercept   : AIC=39541.079, Time=5.02 sec
+ ARIMA(1,1,2)(0,0,0)[12] intercept   : AIC=39583.619, Time=0.89 sec
+ ARIMA(2,1,1)(0,0,0)[12] intercept   : AIC=39585.058, Time=0.12 sec
+ ARIMA(3,1,2)(0,0,0)[12] intercept   : AIC=39588.830, Time=0.73 sec
+ ARIMA(2,1,3)(0,0,0)[12] intercept   : AIC=39521.235, Time=2.83 sec
+ ARIMA(2,1,3)(1,0,0)[12] intercept   : AIC=39521.894, Time=6.58 sec
+ ARIMA(2,1,3)(0,0,1)[12] intercept   : AIC=39521.825, Time=6.78 sec
+ ARIMA(2,1,3)(1,0,1)[12] intercept   : AIC=39525.682, Time=7.67 sec
+ ARIMA(1,1,3)(0,0,0)[12] intercept   : AIC=39586.943, Time=0.88 sec
+ ARIMA(3,1,3)(0,0,0)[12] intercept   : AIC=39522.337, Time=3.47 sec
+ ARIMA(2,1,4)(0,0,0)[12] intercept   : AIC=39518.450, Time=2.14 sec
+ ARIMA(2,1,4)(1,0,0)[12] intercept   : AIC=39520.087, Time=5.28 sec
+ ARIMA(2,1,4)(0,0,1)[12] intercept   : AIC=39520.067, Time=7.08 sec
+ ARIMA(2,1,4)(1,0,1)[12] intercept   : AIC=39521.634, Time=6.63 sec
+ ARIMA(1,1,4)(0,0,0)[12] intercept   : AIC=39572.146, Time=2.33 sec
+ ARIMA(3,1,4)(0,0,0)[12] intercept   : AIC=39523.330, Time=3.47 sec
+ ARIMA(2,1,5)(0,0,0)[12] intercept   : AIC=39518.721, Time=3.52 sec
+ ARIMA(1,1,5)(0,0,0)[12] intercept   : AIC=39562.955, Time=1.30 sec
+ ARIMA(3,1,5)(0,0,0)[12] intercept   : AIC=39518.392, Time=4.01 sec
+ ARIMA(3,1,5)(1,0,0)[12] intercept   : AIC=39520.302, Time=5.80 sec
+ ARIMA(3,1,5)(0,0,1)[12] intercept   : AIC=39520.298, Time=9.15 sec
+ ARIMA(3,1,5)(1,0,1)[12] intercept   : AIC=39521.626, Time=21.95 sec
+ ARIMA(4,1,5)(0,0,0)[12] intercept   : AIC=39520.225, Time=5.31 sec
+ ARIMA(4,1,4)(0,0,0)[12] intercept   : AIC=39539.458, Time=18.76 sec
+ ARIMA(3,1,5)(0,0,0)[12]             : AIC=39517.924, Time=25.53 sec
+ ARIMA(3,1,5)(1,0,0)[12]             : AIC=39519.837, Time=26.82 sec
+ ARIMA(3,1,5)(0,0,1)[12]             : AIC=39519.833, Time=21.08 sec
+ ARIMA(3,1,5)(1,0,1)[12]             : AIC=39521.363, Time=8.04 sec
+ ARIMA(2,1,5)(0,0,0)[12]             : AIC=39517.761, Time=2.82 sec
+ ARIMA(2,1,5)(1,0,0)[12]             : AIC=39519.547, Time=4.45 sec
+ ARIMA(2,1,5)(0,0,1)[12]             : AIC=39519.538, Time=11.56 sec
+ ARIMA(2,1,5)(1,0,1)[12]             : AIC=39520.950, Time=4.64 sec
+ ARIMA(1,1,5)(0,0,0)[12]             : AIC=39562.517, Time=0.61 sec
+ ARIMA(2,1,4)(0,0,0)[12]             : AIC=39517.547, Time=1.75 sec
+ ARIMA(2,1,4)(1,0,0)[12]             : AIC=39519.170, Time=2.72 sec
+ ARIMA(2,1,4)(0,0,1)[12]             : AIC=39519.153, Time=2.75 sec
+ ARIMA(2,1,4)(1,0,1)[12]             : AIC=39520.362, Time=3.49 sec
+ ARIMA(1,1,4)(0,0,0)[12]             : AIC=39572.155, Time=0.29 sec
+ ARIMA(2,1,3)(0,0,0)[12]             : AIC=39519.473, Time=1.97 sec
+ ARIMA(3,1,4)(0,0,0)[12]             : AIC=39523.346, Time=2.07 sec
+ ARIMA(1,1,3)(0,0,0)[12]             : AIC=39586.833, Time=0.53 sec
+ ARIMA(3,1,3)(0,0,0)[12]             : AIC=39534.635, Time=1.99 sec
+
+Best model:  ARIMA(2,1,4)(0,0,0)[12]          
+Total fit time: 268.895 seconds
+
+52 Seasonal period
+
+
+Performing stepwise search to minimize aic
+ ARIMA(2,1,2)(1,0,1)[52] intercept   : AIC=39543.741, Time=94.70 sec
+ ARIMA(0,1,0)(0,0,0)[52] intercept   : AIC=39582.172, Time=0.04 sec
+ ARIMA(1,1,0)(1,0,0)[52] intercept   : AIC=39585.878, Time=18.61 sec
+ ARIMA(0,1,1)(0,0,1)[52] intercept   : AIC=39585.893, Time=8.82 sec
+ ARIMA(0,1,0)(0,0,0)[52]             : AIC=39582.219, Time=0.05 sec
+ ARIMA(2,1,2)(0,0,1)[52] intercept   : AIC=39542.367, Time=77.26 sec
+ ARIMA(2,1,2)(0,0,0)[52] intercept   : AIC=39540.800, Time=2.39 sec
+ ARIMA(2,1,2)(1,0,0)[52] intercept   : AIC=39542.102, Time=62.07 sec
+ ARIMA(1,1,2)(0,0,0)[52] intercept   : AIC=39583.619, Time=0.94 sec
+ ARIMA(2,1,1)(0,0,0)[52] intercept   : AIC=39585.058, Time=0.14 sec
+ ARIMA(3,1,2)(0,0,0)[52] intercept   : AIC=39588.830, Time=0.78 sec
+ ARIMA(2,1,3)(0,0,0)[52] intercept   : AIC=39521.235, Time=3.20 sec
+ ARIMA(2,1,3)(1,0,0)[52] intercept   : AIC=39522.436, Time=61.07 sec
+ ARIMA(2,1,3)(0,0,1)[52] intercept   : AIC=39523.389, Time=64.92 sec
+ ARIMA(2,1,3)(1,0,1)[52] intercept   : AIC=39525.522, Time=83.92 sec
+ ARIMA(1,1,3)(0,0,0)[52] intercept   : AIC=39586.943, Time=0.92 sec
+ ARIMA(3,1,3)(0,0,0)[52] intercept   : AIC=39522.337, Time=4.26 sec
+ ARIMA(2,1,4)(0,0,0)[52] intercept   : AIC=39518.450, Time=2.52 sec
+ ARIMA(2,1,4)(1,0,0)[52] intercept   : AIC=39520.320, Time=71.45 sec
+ ARIMA(2,1,4)(0,0,1)[52] intercept   : AIC=39520.325, Time=63.20 sec
+ ARIMA(2,1,4)(1,0,1)[52] intercept   : AIC=39521.816, Time=74.72 sec
+ ARIMA(1,1,4)(0,0,0)[52] intercept   : AIC=39572.146, Time=2.23 sec
+ ARIMA(3,1,4)(0,0,0)[52] intercept   : AIC=39523.330, Time=3.42 sec
+ ARIMA(2,1,5)(0,0,0)[52] intercept   : AIC=39518.721, Time=3.12 sec
+ ARIMA(1,1,5)(0,0,0)[52] intercept   : AIC=39562.955, Time=0.94 sec
+ ARIMA(3,1,5)(0,0,0)[52] intercept   : AIC=39518.392, Time=3.89 sec
+ ARIMA(3,1,5)(1,0,0)[52] intercept   : AIC=39520.306, Time=120.04 sec
+ ARIMA(3,1,5)(0,0,1)[52] intercept   : AIC=39520.306, Time=81.27 sec
+ ARIMA(3,1,5)(1,0,1)[52] intercept   : AIC=39522.272, Time=95.36 sec
+ ARIMA(4,1,5)(0,0,0)[52] intercept   : AIC=39520.225, Time=4.78 sec
+ ARIMA(4,1,4)(0,0,0)[52] intercept   : AIC=39539.458, Time=4.52 sec
+ ARIMA(3,1,5)(0,0,0)[52]             : AIC=39517.924, Time=1.48 sec
+ ARIMA(3,1,5)(1,0,0)[52]             : AIC=39519.861, Time=15.84 sec
+ ARIMA(3,1,5)(0,0,1)[52]             : AIC=39519.861, Time=19.10 sec
+ ARIMA(3,1,5)(1,0,1)[52]             : AIC=39521.864, Time=22.28 sec
+ ARIMA(2,1,5)(0,0,0)[52]             : AIC=39517.761, Time=1.95 sec
+ ARIMA(2,1,5)(1,0,0)[52]             : AIC=39519.662, Time=17.54 sec
